@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700&family=Vazirmatn:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ffbff1, #e6ceff, #d0dcff, #c5e7ff, #c9efff, #c9f3fd, #cbf7fa, #d0fbf7, #d0feee, #d7ffe3, #e3ffd6, #f4fdca);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 600px;
+}
+
+.title-text {
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.styles {
+    font-size: 35px;
+    padding: 15px 10px;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+    background-color: #a9ed98;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 40px;
+    padding: 20px 30px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #04abff;
+    color: white;
+    box-shadow: 4px 4px 5px #32354f;
+}
+
+button:hover {
+    background-color: rgba(4, 171, 255, 0.85);
+}
